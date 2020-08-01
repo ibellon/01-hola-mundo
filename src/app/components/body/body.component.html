@@ -1,5 +1,6 @@
+<h3>{{mensajePadre}}</h3>
+<button (click)="onPropagar()">Propagar</button>
 <div class="row">
-
     <div class="col">
         <h1>*ngIf</h1>
         <br>
@@ -8,6 +9,7 @@
             <div *ngIf="mostrar" class="card-body">
                 <h5 class="card-title">{{frase.autor}}</h5>
                 <p class="card-text">{{frase.mensaje}}</p>
+                <p class="card-text">{{frase.notas}}</p>
             </div>
         </div>
 
