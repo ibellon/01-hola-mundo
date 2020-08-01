@@ -24,7 +24,8 @@
     "zone.js": "~0.9.1",
     "elliptic": ">=6.5.3",
     "websocket-extensions": ">=0.1.4",
-    "npm-registry-fetch": ">=4.0.5"
+    "npm-registry-fetch": ">=4.0.5",
+    "lodash": ">=4.17.19"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.21",
@@ -48,6 +49,7 @@
     "typescript": "~3.5.3",
     "elliptic": ">=6.5.3",
     "websocket-extensions": ">=0.1.4",
-    "npm-registry-fetch": ">=4.0.5"
+    "npm-registry-fetch": ">=4.0.5",
+    "lodash": ">=4.17.19"
   }
 }
