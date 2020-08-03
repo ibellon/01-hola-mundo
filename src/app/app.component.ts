@@ -8,7 +8,7 @@ import { BodyComponent } from './components/body/body.component';
 })
 export class AppComponent implements AfterViewInit {
 
-  @ViewChild(BodyComponent, null) bodyComponent: BodyComponent;
+  @ViewChild(BodyComponent, {static: true}) bodyComponent: BodyComponent;
 
   mensajePadre = 'Mensaje para el componente hijo';
 
